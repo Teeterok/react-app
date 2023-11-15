@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Приклад як працювати з tailwind у scss
+.App {
+  @apply- [#f7f7];
+
+  h1 {
+    @apply text-xl font-medium;
+  }
+  button {
+    @apply border border-solid border-pink-200 hover:bg-black transition-all  duration-200;
+  }
+}

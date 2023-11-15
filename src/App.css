@@ -1,0 +1,12 @@
+.App h1 {
+  font-weight: medium;
+  font-size: 50px;
+}
+.App h1 button {
+  background-color: #231;
+}
+
+body {
+  padding: 20px;
+  background-color: lightpink;
+}/*# sourceMappingURL=App.css.map */
